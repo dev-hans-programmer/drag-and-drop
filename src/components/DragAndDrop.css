@@ -1,0 +1,38 @@
+.DragAndDrop {}
+
+.tasks-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.task {
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.inProgress {
+    background-color: lightgray;
+}
+.inReview {
+    background-color: orange;
+}
+.completed {
+    background-color: green;
+}
+
+.draggable {
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+}
